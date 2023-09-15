@@ -10,3 +10,14 @@ function zoldSzin(inputMezo){
 function feketeSzin(inputMezo) {
     inputMezo.style.color = "black";
 }
+
+function betoltodott(){
+    const bekezdes = document.getElementById('bekezdes');
+    bekezdes.innerHTML = "Betöltődött";
+}
+
+function rakattint(){
+    const bekezdes = document.getElementById('bekezdes');
+    bekezdes.innerHTML = "Rákattintott";
+
+}
