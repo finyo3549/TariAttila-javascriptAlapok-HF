@@ -19,5 +19,11 @@ function betoltodott(){
 function rakattint(){
     const bekezdes = document.getElementById('bekezdes');
     bekezdes.innerHTML = "Rákattintott";
+}
 
+function bevitel(){
+    const beviteliMezo = document.getElementById('beviteliMezo');
+    const bekezdes = document.getElementById('bekezdes');
+    let beviteliErtek = beviteliMezo.value;
+    bekezdes.innerHTML = beviteliErtek;    
 }
